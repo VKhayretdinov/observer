@@ -1,0 +1,41 @@
+body {
+    background-color: #f2f0f3;;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#color-picker {
+    margin: 10px;
+    text-align: center;
+}
+
+.subscriber {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;  
+}
+
+.buttons {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 120px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 50%;
+}
